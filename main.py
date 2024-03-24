@@ -15,7 +15,7 @@ import time
 
 datasets = ['synthetic_athlete','dutch','german','student','compass','adult']
 
-methods_to_run = ['CounterFair_dist'] # ['CounterFair', 'CounterFair_dev_dist', 'CounterFair_e']
+methods_to_run = ['CounterFair_dist'] # ['CounterFair_dist', 'CounterFair_dev_dist', 'CounterFair_e']
 step = 0.01                # Step size to change continuous features
 train_fraction = 0.7       # Percentage of examples to use for training
 n_feat = 50                # Number of examples to generate synthetically per feature
